@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Customers</title>
+</head>
+<body>
+    <h1>Manage Customers</h1>
+    <form id="createCustomerForm">
+        Name: <input type="text" id="customerName" required><br>
+        Other details: <input type="text" id="customerDetails" required><br>
+        <button type="submit">Add Customer</button>
+    </form>
+
+    <h2>Customers List</h2>
+    <table id="customersTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Details</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Customer entries will be inserted here -->
+        </tbody>
+    </table>
+
+    <script src="manage_customers.js"></script>
+</body>
+</html>
